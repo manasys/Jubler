@@ -54,6 +54,14 @@
                     <exclude>**/version.prop</exclude>
                 </excludes>
             </resource>
+            <resource>
+                <directory>src/main/resources/help</directory>
+                <targetPath>${basedir}/target/help</targetPath>
+                <filtering>true</filtering>
+                <includes>
+                    <include>**/*.html</include>
+                </includes>
+            </resource>
         </resources>
     </build>
 </project>
